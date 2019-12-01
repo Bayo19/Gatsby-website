@@ -5,5 +5,11 @@
  */
 
 module.exports = {
-  /* Your site config here */
+    siteMetadata: {
+        title: 'Coding Resource',
+        author: 'Bayo Ade'
+    },
+    plugins: [
+        'gatsby-plugin-sass'
+    ]
 }

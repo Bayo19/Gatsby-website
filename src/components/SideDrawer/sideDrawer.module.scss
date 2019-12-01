@@ -1,0 +1,109 @@
+.sideDrawer {
+    height: 100%;
+    background: #fff;
+    box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    max-width: 400px;
+    z-index: 200;
+    transform: transition 2s ease-in;
+}
+
+.sideDrawer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.sideDrawer li {
+    margin: .5rem 0;
+}
+
+.sideDrawerLink {
+    color: #000;
+    text-decoration: none;
+    font-size: 2.2rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.sideDrawer li:hover:first-child {
+    border-left: 3px solid black;
+    padding-left: 10px;
+    margin-left: 5px;
+    transition: 0.23s;
+    background: #8963BA;
+}
+
+.sideDrawer li:hover:nth-child(2) {
+    background: #F0DB4F;
+    transition: 0.23s;
+    border-left: 3px solid black;
+    padding-left: 10px;
+    margin-left: 8px;
+}
+
+.sideDrawer li:active:nth-child(2) {
+    background: #F0DB4F;
+}
+
+.sideDrawer li:hover:nth-child(3) {
+    background: #43853D;
+    transition: 0.23s;
+    border-left: 3px solid black;
+    padding-left: 10px;
+    margin-left: 8px;
+}
+
+.sideDrawer li:active:nth-child(3) {
+    background: #43853D;
+}
+
+.sideDrawer li:hover:nth-child(4) {
+    background: #b50136;
+    transition: 0.23s;
+    border-left: 3px solid black;
+    padding-left: 10px;
+    margin-left: 8px;
+}
+
+.sideDrawer li:active:nth-child(4) {
+    background: #b50136;
+}
+
+.sideDrawer li:hover:nth-child(5) {
+    background: #3873A3;
+    transition: 0.23s;
+    border-left: 3px solid black;
+    padding-left: 10px;
+    margin-left: 8px;
+}
+
+.sideDrawer li:active:nth-child(5) {
+    background: #3873A3;
+}
+
+.sideDrawer li:hover:nth-child(6) {
+    background: #F16529;
+    transition: 0.23s;
+    border-left: 3px solid black;
+    padding-left: 10px;
+    margin-left: 8px;
+}
+
+.sideDrawer li:active:nth-child(6) {
+    background: #F16529;
+}
+
+// .sideDrawerLink:hover,
+// .sideDrawerLink:active {
+//     color: #fa923f;
+// }
+@media (min-width: 769px) {
+    .sideDrawer {
+        display: none;
+    }
+}
