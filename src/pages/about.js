@@ -12,7 +12,7 @@ const About = () => {
                     <h1 className={Abouty.aboutHead}>About</h1>
                 </div>
                 <div className={Abouty.paragraph}>
-                   <p className={Abouty.para1}>As a very curious person who always has about 50 tabs open in my browser, I thought it would be great to have a single place where all of my programming and coding related interests were kept. So I made this website. 
+                   <p className={Abouty.para1}>As a very curious person who always has about 50 tabs open in my browser, I thought it would be great to have a single place where all of my programming and coding related resources were kept. So I made this website. 
 
  For now the focus is on web developement but the scope of the website will open up and be more varied as I learn more  about coding and programming.
 <br/><br/>
