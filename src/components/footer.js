@@ -11,7 +11,7 @@ const Footer = () => {
 </div>
 
 <div className={Footy.footerItem}>
-<Link className={Footy.footyLink}to="/about">About</Link>
+<Link className={Footy.footyLink} to="/about">About</Link>
 </div>
 
 </footer>
