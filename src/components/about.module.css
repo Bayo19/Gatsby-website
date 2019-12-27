@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap");
+.noStyle {
+  text-decoration: none;
+  color: #e48f9c;
+  background: black;
+  padding: 10px;
+  border-radius: 97% 84% 1% 88% / 8% 10% 73% 10%;
+}
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  max-width: 80%;
+  margin: 0 auto;
+  grid-gap: 15px;
+  grid-template-areas: "main main main main";
+}
+main {
+  grid-area: main;
+}
+.title {
+  padding: 70px 50px 50px 0;
+}
+.aboutHead {
+  color: #272932;
+  text-transform: uppercase;
+  font-family: "Nanum Gothic Coding", monospace;
+  letter-spacing: 3px;
+  margin-left: 15px;
+  font-size: 56px;
+  padding-top: 50px;
+  text-align: center;
+}
+.paragraph {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  max-width: 85%;
+  margin: 0 auto;
+  grid-template-areas: "para";
+  padding: 0;
+  align-items: center;
+  font-family: "IBM Plex Mono", monospace;
+  line-height: 190%;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 25px 25px 25px 0;
+  text-align: justify;
+}
+.para {
+  grid-area: para;
+}
+@media (max-width: 991px) {
+  .paragraph {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    max-width: 99%;
+    margin: 0 auto;
+    grid-template-areas: "para";
+    padding: 0;
+    align-items: center;
+    font-family: "IBM Plex Mono", monospace;
+    line-height: 190%;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .paragraph {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    max-width: 100%;
+    margin: 0;
+    grid-template-areas: "para";
+    padding: 0;
+    align-items: center;
+    font-family: "IBM Plex Mono", monospace;
+    line-height: 190%;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .piece {
+    position: relative;
+  }
+  .title {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+}

@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap");
 .content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -13,8 +13,22 @@
 main {
   grid-area: main;
 }
+.blackLink {
+  color: black;
+  text-decoration: none;
+}
 .title {
   padding: 70px 50px 50px 0;
+}
+.toolHead {
+  font-family: "Nanum Gothic Coding", monospace;
+  letter-spacing: 3px;
+  margin-left: 15px;
+  font-size: 56px;
+  padding-top: 50px;
+  text-align: center;
+  color: #8963ba;
+  text-transform: uppercase;
 }
 .paragraph {
   display: grid;
@@ -25,58 +39,12 @@ main {
   grid-template-areas: "para";
   padding: 0;
   align-items: center;
-  font-family: "IBM Plex Mono";
+  font-family: "IBM Plex Mono", monospace;
   line-height: 190%;
   font-size: 20px;
   margin-bottom: 20px;
   padding: 25px 25px 25px 0;
   text-align: justify;
-}
-.para {
-  grid-area: para;
-}
-.jsHead {
-  font-family: "Nanum Gothic Coding", monospace;
-  letter-spacing: 3px;
-  margin-left: 15px;
-  font-size: 56px;
-  padding-top: 50px;
-  text-align: center;
-  color: #f0db4f;
-  text-transform: uppercase;
-}
-.jsyel {
-  color: #d8be12;
-}
-.w1 {
-  color: #4da9c0;
-  text-decoration: none;
-}
-.w2 {
-  color: #762828;
-  text-decoration: none;
-}
-.w3 {
-  color: #79a81c;
-  text-decoration: none;
-}
-.noStyle {
-  text-decoration: none;
-}
-.webpage {
-  color: #106f99;
-}
-.node1 {
-  color: #026e00;
-}
-.paypal {
-  color: #1ca6e1;
-}
-.neto {
-  color: #e50914;
-}
-.linkedin {
-  color: #0077b5;
 }
 .cont {
   display: grid;
@@ -155,7 +123,7 @@ main {
     grid-template-areas: "para";
     padding: 0;
     align-items: center;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "IBM Plex Mono", monospace;
     line-height: 190%;
     font-size: 20px;
     margin-bottom: 20px;
@@ -180,7 +148,7 @@ main {
     grid-template-areas: "para";
     padding: 0;
     align-items: center;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "IBM Plex Mono", monospace;
     line-height: 190%;
     font-size: 18px;
     margin-bottom: 20px;

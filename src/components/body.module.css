@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
 .content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -25,7 +24,7 @@ main {
   grid-template-areas: "para";
   padding: 0;
   align-items: center;
-  font-family: "IBM Plex Mono";
+  font-family: "IBM Plex Mono", monospace;
   line-height: 190%;
   font-size: 20px;
   margin-bottom: 20px;
@@ -35,50 +34,95 @@ main {
 .para {
   grid-area: para;
 }
-.jsHead {
+.htmlHead {
   font-family: "Nanum Gothic Coding", monospace;
   letter-spacing: 3px;
   margin-left: 15px;
   font-size: 56px;
   padding-top: 50px;
   text-align: center;
-  color: #f0db4f;
+}
+.span1 {
+  color: #f16529;
   text-transform: uppercase;
+  margin-right: 0;
+  font-family: "Nanum Gothic Coding", monospace;
+  letter-spacing: 3px;
+  margin-left: 15px;
+  font-size: 56px;
+  padding-top: 50px;
+  text-align: center;
 }
-.jsyel {
-  color: #d8be12;
+.span2 {
+  color: #29a9df;
+  text-transform: uppercase;
+  font-size: 56px;
+  font-family: "Nanum Gothic Coding", monospace;
+  letter-spacing: 3px;
+  margin-left: 15px;
+  font-size: 56px;
+  padding-top: 50px;
+  text-align: center;
 }
-.w1 {
-  color: #4da9c0;
+.css1 {
+  color: #32b121;
+  font-size: 35px;
+  font-family: "Dancing Script", cursive;
+  padding: 3px 0;
+}
+.css2 {
+  color: #185781;
+  font-size: 35px;
+  font-family: "Dancing Script", cursive;
+  padding: 3px 0;
+}
+.css3 {
+  color: #a3209d;
+  font-size: 35px;
+  font-family: "Dancing Script", cursive;
+  padding: 3px 0;
+}
+.hyperStyle {
+  color: #f16529;
+}
+.span22 {
+  color: #29a9df;
+  text-transform: uppercase;
+  font-size: 120%;
+}
+.css10 {
+  background: #030301;
+  color: white;
+}
+.blueCol {
+  color: #094ad6;
+}
+.greenCol {
+  color: #13aa13;
+}
+.blackLink {
+  color: black;
+  font-weight: bolder;
   text-decoration: none;
 }
-.w2 {
-  color: #762828;
+.size {
+  font-size: 40px;
+  color: #bbaa3e;
+}
+.fFamily {
+  font-family: "Dancing Script", cursive;
+  font-family: "ZCOOL KuaiLe", cursive;
+  font-style: italic;
+  font-size: 110%;
+  font-weight: bold;
+  color: #636060;
+}
+.blackHyper {
+  font-weight: bold;
+  color: black;
   text-decoration: none;
 }
-.w3 {
-  color: #79a81c;
-  text-decoration: none;
-}
-.noStyle {
-  text-decoration: none;
-}
-.webpage {
-  color: #106f99;
-}
-.node1 {
-  color: #026e00;
-}
-.paypal {
-  color: #1ca6e1;
-}
-.neto {
-  color: #e50914;
-}
-.linkedin {
-  color: #0077b5;
-}
-.cont {
+.cont2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(100px, auto);
@@ -137,7 +181,7 @@ main {
   font-family: "Ubuntu Mono", monospace;
 }
 @media (max-width: 1020px) {
-  .cont {
+  .cont2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: minmax(100px, auto);
@@ -155,14 +199,14 @@ main {
     grid-template-areas: "para";
     padding: 0;
     align-items: center;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "IBM Plex Mono", monospace;
     line-height: 190%;
     font-size: 20px;
     margin-bottom: 20px;
   }
 }
 @media (max-width: 725px) {
-  .cont {
+  .cont2 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: minmax(100px, auto);
@@ -180,7 +224,7 @@ main {
     grid-template-areas: "para";
     padding: 0;
     align-items: center;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "IBM Plex Mono", monospace;
     line-height: 190%;
     font-size: 18px;
     margin-bottom: 20px;
