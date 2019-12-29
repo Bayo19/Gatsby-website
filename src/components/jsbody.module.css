@@ -25,7 +25,7 @@ main {
   grid-template-areas: "para";
   padding: 0;
   align-items: center;
-  font-family: "IBM Plex Mono";
+  font-family: "IBM Plex Mono", monospace;
   line-height: 190%;
   font-size: 20px;
   margin-bottom: 20px;
@@ -155,7 +155,7 @@ main {
     grid-template-areas: "para";
     padding: 0;
     align-items: center;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "IBM Plex Mono", monospace;
     line-height: 190%;
     font-size: 20px;
     margin-bottom: 20px;
@@ -180,7 +180,7 @@ main {
     grid-template-areas: "para";
     padding: 0;
     align-items: center;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "IBM Plex Mono", monospace;
     line-height: 190%;
     font-size: 18px;
     margin-bottom: 20px;
