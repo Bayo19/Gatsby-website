@@ -40,6 +40,7 @@ const Ruby = () => {
                 <div className={rubyStyle.paragraph}>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <p><span className={rubyStyle.roobSpan}>Ruby</span> is a very high-level programming language created by Yukihiro Matsumoto in an effort to emphasize human needs instead of computer needs. A high level language is one that is closer to human languages and further from machine language (ones and zeros).  According to the creator of the language, Ruby was made to make programmers more productive and happy nad that seems to be the case as the language is used by massive companies such as Twitter, AirBnb, Shopify, Stripe and Github.
 >>>>>>> parent of 6b5d62d... editing some code
 =======
@@ -50,6 +51,9 @@ const Ruby = () => {
                 <p><span className={rubyStyle.roobSpan}>Ruby</span> is a very high-level programming language created by Yukihiro Matsumoto in an effort to emphasize human needs instead of computer needs. A high level language is one that is closer to human languages and further from machine language (ones and zeros).  <br/><br/>
                 According to the creator of the language, Ruby was made to make programmers more productive and happy and that seems to be the case as the language is used by massive companies such as Twitter, AirBnb, Shopify, Stripe and Github.
 >>>>>>> parent of 0acf185... let's see
+=======
+                <p><span className={rubyStyle.roobSpan}>Ruby</span> is a very high-level programming language created by Yukihiro Matsumoto in an effort to emphasize human needs instead of computer needs. A high level language is one that is closer to human languages and further from machine language (ones and zeros).  According to the creator of the language, Ruby was made to make programmers more productive and happy nad that seems to be the case as the language is used by massive companies such as Twitter, AirBnb, Shopify, Stripe and Github.
+>>>>>>> parent of 6b5d62d... editing some code
 
 Most programming languages have similarities and because Ruby has the most readable syntax for new developers, it's a great language to learn as an introduction to programming as <span className={rubyStyle.roobStein}>it can help to understand how other languages work.</span></p>
                 </div>
