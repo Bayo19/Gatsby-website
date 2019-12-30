@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
+=======
+>>>>>>> parent of 6b5d62d... editing some code
 .content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -39,7 +42,8 @@ main {
     grid-template-areas: "para";
     padding: 0;
     align-items: center;
-    font-family: 'IBM Plex Mono', monospace;
+    /* font-family: 'Nanum Gothic Coding', monospace; */
+    font-family: 'Ubuntu Mono', monospace;
     line-height: 190%;
     font-size: 20px;
     margin-bottom: 20px;
@@ -143,7 +147,7 @@ main {
         padding: 0;
         align-items: center;
         /* font-family: 'Nanum Gothic Coding', monospace; */
-        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Ubuntu Mono', monospace;
         line-height: 190%;
         font-size: 20px;
         margin-bottom: 20px;
@@ -173,7 +177,7 @@ main {
         padding: 0;
         align-items: center;
         /* font-family: 'Nanum Gothic Coding', monospace; */
-        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Ubuntu Mono', monospace;
         line-height: 190%;
         font-size: 18px;
         margin-bottom: 20px;

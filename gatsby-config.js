@@ -10,7 +10,6 @@ module.exports = {
         author: 'Bayo Ade'
     },
     plugins: [
-        'gatsby-plugin-react-helmet',
         'gatsby-plugin-sass'
     ]
 }

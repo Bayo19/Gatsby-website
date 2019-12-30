@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from '../components/layout'
 import Abouty from '../components/about.module.scss'
-import Head from '../components/head'
+
 
 const IndexPage = () => {
     return (
