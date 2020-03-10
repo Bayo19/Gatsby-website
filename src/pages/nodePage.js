@@ -23,51 +23,20 @@ const NodePage = () => {
 
                     <div className={nodebody.cont}>
 
-                        <div className={nodebody.card}>
-                            <h2><a href="https://nodejs.org/en/docs/" target="_blank">NodeJS.ORG</a></h2>
-                            <p>Official Node documentation</p>
-                        </div>
+                        <Card link={"https://medium.com/the-node-js-collection/why-the-hell-would-you-use-node-js-4b053b94ab8e#.9s49rbove"} cardText={'why use node.js'} body={'An insightful article about why and when to use Node'}/>
 
-                        <div className={nodebody.card}>
-                            <h2><a href="https://www.udemy.com/course/nodejs-the-complete-guide/" target="_blank">Complete Guide - NodeJS</a></h2>
-                            <p>A wonderful insightful course by Maximilian Schwarzmuller. It covers REST API's, Authentication, MongoDB and SQL</p>
-                        </div>
+                        <Card link={'https://nodejs.org/en/docs/'} cardText={'NodeJS.ORG'} body={'Official Node documentation'}/>
+                       
+                        <Card link={'https://www.udemy.com/course/nodejs-the-complete-guide/'} cardText={'Complete Guide - NodeJS'} body={'A wonderful insightful course by Maximilian Schwarzmuller. It covers REST APIs, Authentication, MongoDB and SQL'}/>
 
-                        <div className={nodebody.card}>
-                            <h2><a href="https://www.theodinproject.com/courses/nodejs" target="_blank">odin proj - node</a>
-                            </h2>
-                            <p>A thorough course with links to useful resources</p>
-                        </div>
+                        <Card link={'https://www.youtube.com/watch?v=dFnkZ15-_0o'} cardText={'Andrew Mead Node'} body={'A two hour prewview of Andrew Mead\s node js course'} />
 
-                        <div className={nodebody.card}>
-                            <h2>
-                                <a href="https://learnnode.com/" target="_blank">LEARN NODE - Wes Bos</a>
-                            </h2>
-                            <p>A premium training course to learn to build apps with Node.js, Express, MongoDB, and friends.</p>
-                        </div>
+                        <Card link={'https://www.theodinproject.com/courses/nodejs'} cardText={'odin proj - node'} body={'A thorough course with links to useful resources'}/>
 
-                        <div className={nodebody.card}>
-                            <h2>
-                                <a href="https://www.youtube.com/watch?v=dFnkZ15-_0o" target="_blank">Node Introduction</a>
-                            </h2>
-                            <p>A free 2 hour review of The Complete Node.js Developer Course by Andrew Mead</p>
-                        </div>
+                        <Card link={'https://expressjs.com/'} cardText={'Express JS'} body={'A Node JS Framework'}/>
 
-                        <div className={nodebody.card}>
-                            <h2><a href="https://expressjs.com/" target="_blank">Express JS </a></h2>
-                            <p>A Node JS Framework</p>
-                        </div>
-
-                        <div className={nodebody.card}>
-                            <h2><a href="https://nodeschool.io/#workshopper-list" target="_blank">Nodeschool</a></h2>
-                            <p>Open source workshops that teach web software skills. Do them on your own or at a workshop nearby.</p>
-                        </div>
-
-                        <div className={nodebody.card}>
-                            <h2><a href="https://medium.com/the-node-js-collection/why-the-hell-would-you-use-node-js-4b053b94ab8e#.9s49rbove" target="_blank">why use node.js</a></h2>
-                            <p>An insightful article about why and when to use Node</p>
-                        </div>
-
+                        <Card link={'https://learnnode.com/'} cardText={'LEARN NODE - Wes Bos'} body={'A premium training course to learn to build apps with Node.js, Express, MongoDB, and friends.'}/>
+                        
                     </div>
 
                 </div>

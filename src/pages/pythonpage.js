@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import pythonPage from '../components/pythonpage.module.scss'
+import Card from '../components/Card'
 
 const Python = () => {
     return (
@@ -19,46 +20,20 @@ const Python = () => {
                 <div class="resource">
 
                     <div className={pythonPage.cont}>
-                        <div className={pythonPage.card}>
-                            <h2><a href="https://automatetheboringstuff.com/" target="_blank">Automate the boring stuff</a>
-                            </h2>
-                            <p>Automate things with Python</p>
-                        </div>
+                        <Card link={'https://automatetheboringstuff.com/'}  cardText={'Automate the boring stuff'} body={'Automate things with Python'}/>
+                        
+                        <Card link={'https://wiki.python.org/moin/BeginnersGuide/NonProgrammers'} cardText={'Python Resources'} body={'Python books, interactive courses, tools and videos'}/>
 
-                        <div className={pythonPage.card}>
-                            <h2><a href="https://wiki.python.org/moin/BeginnersGuide/NonProgrammers" target="_blank">Python Resources</a>
-                            </h2>
-                            <p>Python books, interactive courses, tools and videos</p>
-                        </div>
-                        <div className={pythonPage.card}>
-                            <h2><a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc" target="_blank">Python for beginners</a></h2>
-                            <p>A six hour online video course for new Python developers</p>
-                        </div>
+                        <Card link={'https://www.youtube.com/watch?v=_uQrJ0TkZlc'} cardText={'Python for beginners'} body={'A six hour online video course for new Python developers'} />
 
-                        <div className={pythonPage.card}>
-                            <h2><a href="https://www.youtube.com/user/schafer5/playlists" target="_blank">Corey Schafer</a></h2>
-                            <p>A youtube channel with a wealth of Python information; including Django and Flask which are Python frameworks</p>
-                        </div>
+                        <Card link={'https://www.youtube.com/user/schafer5/playlists'} cardText={'Corey Schafer'} body={'A youtube channel with a wealth of Python information; including Django and Flask which are Python frameworks'}/>
 
-                        <div className={pythonPage.card}>
-                            <h2><a href="https://python.swaroopch.com/" target="_blank"> a byte of python</a>
-                            </h2>
-                            <p>A free book on programming with the Python language. It serves as a guide to Python for a beginner audience. </p>
-                        </div>
+                        <Card link={'https://python.swaroopch.com/'} cardText={'a byte of python'} body={'A free book on programming with the Python language. It serves as a guide to Python for a beginner audience. '} />
 
-                        <div className={pythonPage.card}>
-                            <h2>
-                                <a href="http://inventwithpython.com/" target="_blank">invent with python</a>
-                            </h2>
-                            <p>An incredible website with free online books teaching python for beginners and computer game development</p>
-                        </div>
-                        <div className={pythonPage.card}>
-                            <h2>
-                                <a href="https://runestone.academy/runestone/books/published/thinkcspy/index.html#" target="_blank">How to think like a computer scientist</a>
-                            </h2>
-                            <p>An interactive edition of the highly rated Python book by Allen B Downey</p>
-                        </div>
+                        <Card link={'http://inventwithpython.com/'} cardText={'invent with python'} body={'An incredible website with free online books teaching python for beginners and computer game development'}/>
 
+                        <Card link={'https://runestone.academy/runestone/books/published/thinkcspy/index.html#'} cardText={'How to think like a computer scientist'} body={'An interactive edition of the highly rated Python book by Allen B Downey'}/>
+                        
                     </div>
 
                 </div>

@@ -3,11 +3,16 @@ import {Link} from 'gatsby'
 import Footy from '../components/footer.module.scss'
 
 const Footer = () => {
+   
+    let cur_date = new Date()
+    let year = cur_date.getFullYear()
+    
+
     return (
         <footer className={Footy.footer}>
 
 <div className={Footy.footerItem}>
-    © Coding Resources 2019
+    © Coding Resources {year}
 </div>
 
 <div className={Footy.footerItem}>

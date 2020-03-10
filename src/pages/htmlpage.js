@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import bodyStyles from '../components/body.module.scss'
+import Card from '../components/Card'
 
 const HTMLPage = () => {
     return (
@@ -29,44 +30,25 @@ const HTMLPage = () => {
                 <div class="resource">
 
                     <div className={bodyStyles.cont2}>
-                    <div className={bodyStyles.card}>
-                            <h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML introduction</a></h2>
-                            <p> Learn what HTML is and how to use it</p>
-                        </div>
 
-                        <div className={bodyStyles.card}>
-                            <h2><a href="https://css-tricks.com/" target="_blank">css tricks</a></h2>
-                            <p>A great resource itself. has all the css information you need and more!</p>
-                        </div>
+                        <Card link={'https://developer.mozilla.org/en-US/docs/Web/HTML'} cardText={'HTML Documentation'} body={'Learn what HTML is and how to use it'}/>
 
-                        <div className={bodyStyles.card}>
-                            <h2><a href="https://www.youtube.com/user/TechGuyWeb/search?query=html+css" target="_blank">Traversy</a></h2>
-                            <p>HTML&CSS syntax and projects by Brad Traversy. Great content as usual</p>
-                        </div>
+                        <Card link={'https://www.youtube.com/watch?v=UB1O30fR-EE'} cardText={'HTML Crash Course'} body={'A great introduction to HTML by Traversy Media'} />
 
-                        <div className={bodyStyles.card}>
-                            <h2><a href="https://www.thenetninja.co.uk/courses/html-for-beginners-tutorial" target="_blank">Net Ninja HTML</a></h2>
-                            <p>This teacher has a great teaching style</p>
-                        </div>
+                        <Card link={'https://css-tricks.com/'} cardText={'CSS Tricks'} body={'A great resource itself. has all the css information you need and more!'}/>
+                        
+                        <Card link={'https://www.youtube.com/user/TechGuyWeb/search?query=html+css'} cardText={'HTML & CSS Projects'} body={'HTML & CSS syntax and projects by Brad Traversy. Great content as usual'}/>
 
-                        <div className={bodyStyles.card}>
-                            <h2><a href="https://colorhunt.co/" target="_blank">ColorHunt</a></h2>
-                            <p>Color Hunt is a free and open platform for color inspiration with thousands of trendy hand-picked color palettes</p>
-                        </div>
+                        <Card link={"https://www.thenetninja.co.uk/courses/html-for-beginners-tutorial"} cardText={'Net Ninja HTML'} body={'HTML taught be an enthusiastic teacher'}/>
 
-                        <div className={bodyStyles.card}>
-                            <h2><a href="https://coolors.co" target="_blank">Coolors</a></h2>
-                            <p>Color Scheme Generator</p>
-                        </div>
+                        <Card link={'https://colorhunt.co/'} cardText={'Colorhunt'} body={'Color Hunt is a free and open platform for color inspiration with thousands of trendy hand-picked color palettes'}/>
 
-                        <div className={bodyStyles.card}>
-                            <h2><a href="https://www.thenetninja.co.uk/courses/css-grid-tutorial" target="_blank">Net Ninja Grid</a></h2>
-                            <p>The best free CSS grid tutorial on the internet</p>
-                        </div>
-                        <div className={bodyStyles.card}>
-                            <h2><a href="https://picsum.photos/" target="_blank">Lorem Picsum</a></h2>
-                            <p>The 'Lorem Ipsum' for photos</p>
-                        </div>
+                        <Card link={'https://coolors.co'} cardText={'Coolors'} body={'Color Scheme Generator'}/>
+
+                        <Card link={'https://www.youtube.com/watch?v=9zBsdzdE4sM&feature=emb_title'} cardText={'CSS grid'} body={'A quick video discussing and explaining all you need to know about CSS Grid'}/>
+
+                        <Card link={'https://picsum.photos/'} cardText={'Lorem Picsum'} body={" The 'Lorem Ipsum' for photos "}/>
+                        
                     </div>
                 </div>
             </div>
