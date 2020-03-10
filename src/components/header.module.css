@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap");
+.toolbar {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #272932;
+  height: 56px;
+  font-family: "Nanum Gothic Coding", monospace;
+  text-transform: uppercase;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+.toolbarNavigation {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 1rem;
+}
+.toolbarLogo {
+  margin: 1.4rem;
+}
+.toolbarLogo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.spacer {
+  flex: 1;
+}
+.toolbarNavItems ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.toolbarNavItems li {
+  padding: 0 0.5rem;
+}
+.toolbarNavItems a {
+  color: #fff;
+  text-decoration: none;
+}
+.toolbarNavItemsLinks:hover,
+.toolbarNavItemsLinks:active {
+  color: #fa923f;
+}
+.secondNav {
+  position: relative;
+  padding-top: 65px;
+  width: 100%;
+  display: grid;
+}
+.tags {
+  display: flex;
+  justify-content: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  position: relative;
+}
+.tag {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 20px;
+  border: 3px solid #f0db4f;
+  cursor: pointer;
+  text-transform: uppercase;
+  position: relative;
+}
+.tag:active {
+  border: 3px solid #f0db4f;
+}
+.tag2 {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 20px;
+  border: 3px solid #43853d;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.tag2:active {
+  border: 3px solid #43853d;
+}
+.tag3 {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 20px;
+  border: 3px solid #b50136;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.tag3:active {
+  border: 3px solid #b50136;
+}
+.tag4 {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 20px;
+  border: 3px solid #3873a3;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.tag4:active {
+  border: 3px solid #3873a3;
+}
+.tag5 {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 20px;
+  border: 3px solid #f16529;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.tag5:active {
+  border: 3px solid #f16529;
+}
+.linkFont {
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+@media (max-width: 768px) {
+  .toolbarNavItems {
+    display: none;
+  }
+  .secondNav {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  .toolbarToggleButton {
+    display: none;
+  }
+}
