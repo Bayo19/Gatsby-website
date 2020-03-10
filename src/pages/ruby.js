@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import rubyStyle from '../components/ruby.module.scss'
+import Card from '../components/Card'
 
 const Ruby = () => {
     return (
@@ -21,40 +22,17 @@ Most programming languages have similarities and because Ruby has the most reada
 
                     <div className={rubyStyle.cont}>
 
-                        <div className={rubyStyle.card}>
-                            <h2><a href="https://ruby-doc.org/" target="_blank">Ruby Documentation</a>
-                            </h2>
-                            <p>Help and documentation for the Ruby programming language</p>
-                        </div>
+                        <Card link={"https://ruby-doc.org/"} cardText={'Ruby Documentation'} body={'Help and documentation for the Ruby programming language'}/>
+                       
+                        <Card link={'https://www.mikedane.com/programming-languages/ruby/'} cardText={'Mike Dane'}  body={'The basics of programming in Ruby'}/>
+                        
+                        <Card link={'https://www.rubyguides.com/about/'} cardText={'Ruby Guides'} body={'Become a Ruby expert by learning from Jesus'}/>
 
-                         <div className={rubyStyle.card}>
-                            <h2><a href="https://www.mikedane.com/programming-languages/ruby/" target="_blank">mike dane</a></h2>
-                            <p>The basics of programming in Ruby</p>
-                        </div>
+                        <Card link={'https://www.codecademy.com/learn/learn-ruby'} cardText={'Codecademy'} body={'A great introduction to Ruby by Codecademy'}/>
+                        
+                        <Card link={'https://theswissbay.ch/pdf/Gentoomen%20Library/Programming/Ruby/The%20Ruby%20Programming%20Language%20-%20Oreilly.pdf'} cardText={'The Ruby programming language'} body={'A book written by the author of the Ruby language'}/>
 
-                        <div className={rubyStyle.card}>
-                            <h2><a href="https://www.rubyguides.com/about/" target="_blank">Ruby Guides</a>
-                            </h2>
-                            <p>Become a Ruby expert by learning from Jesus</p>
-                        </div>
-                        <div className={rubyStyle.card}>
-                            <h2><a href="https://www.codecademy.com/learn/learn-ruby" target="_blank">Codecademy</a></h2>
-                            <p>A great introduction to Ruby by Codecademy</p>
-                        </div>
-
-                        <div className={rubyStyle.card}>
-                            <h2>
-                                <a href="https://theswissbay.ch/pdf/Gentoomen%20Library/Programming/Ruby/The%20Ruby%20Programming%20Language%20-%20Oreilly.pdf" target="_blank">The Ruby programming language</a>
-                            </h2>
-                            <p>A book written by the author of the Ruby language</p>
-                        </div>
-                        <div className={rubyStyle.card}>
-                            <h2>
-                                <a href="https://launchschool.com/books/ruby/read/introduction#briefhistory" target="_blank">Launch School</a>
-                            </h2>
-                            <p>Free online guide book for learning Ruby</p>
-                        </div>
-
+                        <Card link={'https://launchschool.com/books/ruby/read/introduction#briefhistory'} cardText={'Launch School'} body={'Free online guide book for learning Ruby'}/>
                     </div>
 
                 </div>

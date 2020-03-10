@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap");
 .content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -25,7 +26,6 @@ main {
   padding: 0;
   align-items: center;
   font-family: "IBM Plex Mono", monospace;
-  font-family: "Ubuntu Mono", monospace;
   line-height: 190%;
   font-size: 20px;
   margin-bottom: 20px;

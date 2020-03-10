@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'gatsby'
 import Layout from '../components/layout'
 import nodebody from '../components/nodebody.module.scss'
+import Card from '../components/Card'
 
 const NodePage = () => {
     return (

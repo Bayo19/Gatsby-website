@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import jsbodyStyles from '../components/jsbody.module.scss'
+import Card from '../components/Card'
 
 const JsPage = () => {
     return (
@@ -22,53 +23,23 @@ const JsPage = () => {
 
                     <div className={jsbodyStyles.cont}>
 
-                        <div className={jsbodyStyles.card}>
-                            <h2><a href="https://scotch.io/courses/getting-started-with-javascript-for-web-development?ref=home-start-here" target="_blank">Getting started with JS</a>
-                            </h2>
-                            <p>An introduction to JavaScript by Chris Sevilleja</p>
-                        </div>
-                        <div className={jsbodyStyles.card}>
-                            <h2><a href="https://javascript.info" target="_blank">javascript.info</a></h2>
-                            <p>A wonderful online book</p>
-                        </div>
+                    <Card link={'https://scotch.io/courses/getting-started-with-javascript-for-web-development?ref=home-start-here'} cardText={'Getting started with JS'} body={'An introduction to JavaScript by Chris Sevilleja'}/>
 
-                        <div className={jsbodyStyles.card}>
-                            <h2><a href="https://www.mikedane.com/web-development/javascript/" target="_blank">mike dane</a></h2>
-                            <p>The basics of programming in JS</p>
-                        </div>
+                    <Card link={'https://javascript.info'} cardText={'javascript.info'} body={'a wonderful online book'}/>
+                        
+                    <Card link={'https://www.mikedane.com/web-development/javascript/'} cardText={'mike dane'} body={'The basics of programming in JS'}/>
+                        
+                    <Card link={'https://www.theodinproject.com/courses/javascript'} cardText={'Odin Project'} body={'A thorough online course/book with projects'}/>
 
-                        <div className={jsbodyStyles.card}>
-                            <h2><a href="https://www.theodinproject.com/courses/javascript" target="_blank">odin proj</a>
-                            </h2>
-                            <p>A thorough online course/book with projects</p>
-                        </div>
+                    <Card link={'https://eloquentjavascript.net'} cardText={'eloquent JS'} body={'Another very thorough online book'}/>
+                        
+                    <Card link={'https://www.udemy.com/modern-javascript-from-the-beginning/'} cardText={'Traversy'} body={'Modern Javascript by Brad Traversy'}/>
 
-                        <div className={jsbodyStyles.card}>
-                            <h2>
-                                <a href="https://eloquentjavascript.net" target="_blank">eloquent JS</a>
-                            </h2>
-                            <p>Another very thorough online book</p>
-                        </div>
+                    <Card link={'https://www.udemy.com/the-complete-javascript-course/'} cardText={'Complete JavaScript'} body={'A highly rated and project driven course from Jonas Schmedtmann'}/>
 
-                        <div className={jsbodyStyles.card}>
-                            <h2><a href="https://www.udemy.com/modern-javascript-from-the-beginning/" target="_blank">Traversy</a></h2>
-                            <p>Modern Javascript by Brad Traversy</p>
-                        </div>
+                    <Card link={'https://javascript30.com/'} cardText={'Javascript30'} body={'Get ideas and learn more by building projects with wes bos. Great Javascript practice'}/>
 
-                        <div className={jsbodyStyles.card}>
-                            <h2><a href="https://www.udemy.com/the-complete-javascript-course/" target="_blank">Complete JS </a></h2>
-                            <p>A highly rated and project driven course from Jonas Schmedtmann</p>
-                        </div>
-
-                        <div className={jsbodyStyles.card}>
-                            <h2><a href="https://javascript30.com/" target="_blank">Javascript30</a></h2>
-                            <p>Get ideas and learn more by building projects with wes bos. Great Javascript practice</p>
-                        </div>
-
-                        <div className={jsbodyStyles.card}>
-                            <h2><a href="https://keycode.info/" target="_blank">Keycodes</a></h2>
-                            <p>Keycode reference site by wes bos</p>
-                        </div>
+                    <Card link={'https://keycode.info/'} cardText={'Keycodes'} body={'Keycode reference site by wes bos'}/>
 
                     </div>
 
