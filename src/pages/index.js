@@ -14,7 +14,7 @@ const IndexPage = () => {
                 </div>
                 <div className={Abouty.paragraph}>
                    <p>The purpose of this website is to help people, primarily junior developers, by putting all the best web development resources in one place for easy access, especially in case we forget the name of fun tools we have used before.</p>
-                    <p>If you'd like to make any suggestions or if you have a helpful resource you would like featured here, make a <a className={Abouty.noStyle} href="https://github.com/Bayo19/Gatsby-website" target="_blank">pull request</a></p>
+                    <p>If you'd like to make any suggestions or if you have a helpful resource you would like featured here, make a <a className={Abouty.noStyle} href="https://github.com/Bayo19/Gatsby-website" target="_blank"  rel="noopener noreferrer">pull request</a></p>
                 </div>
                 </div>
                 </main>

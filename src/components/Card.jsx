@@ -4,7 +4,7 @@ import  CardStyle from './card.module.scss'
 const Card = (props) => {
     return (
         <div className={CardStyle.card}>
-            <h2><a href={props.link} target='_blank'>{props.cardText}</a></h2>
+            <h2><a href={props.link} target='_blank' rel="noopener noreferrer">{props.cardText}</a></h2>
             <p>{props.body}</p>
         </div>
     )

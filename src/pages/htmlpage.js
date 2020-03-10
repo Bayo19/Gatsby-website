@@ -22,17 +22,20 @@ const HTMLPage = () => {
                         <br/>
 
                          <span className={bodyStyles.span22}>CSS</span> is a stylesheet language used for describing the presentation of the document written in HTML. For example, with  <span className={bodyStyles.css10}>CSS</span> we can make a word <span className={bodyStyles.blueCol}>blue</span> or <span className={bodyStyles.greenCol}>green</span> or even make every letter of a word a different color. With tools
-                        like <a className={bodyStyles.blackLink} href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">flexbox</a> and <a className={bodyStyles.blackLink} href="https://gridbyexample.com/learn/" target="_blank">css grid</a>, developers can arrange and align elements on a webpage however they like. CSS can be used to change the <span className={bodyStyles.size}>font-size</span> or <span className={bodyStyles.fFamily}>font-family</span> of the mark up; it can
-                        even be used for animations and art. Learn more <a className={bodyStyles.blackHyper} href="https://learnlayout.com/" target="_blank">here</a>
+                        like <a className={bodyStyles.blackLink} href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank"  rel="noopener noreferrer">flexbox</a> and <a className={bodyStyles.blackLink} href="https://gridbyexample.com/learn/" target="_blank"  rel="noopener noreferrer">css grid</a>, developers can arrange and align elements on a webpage however they like. CSS can be used to change the <span className={bodyStyles.size}>font-size</span> or <span className={bodyStyles.fFamily}>font-family</span> of the mark up; it can
+                        even be used for animations and art.
                     </p>
                 </div>
 <br/><br/><br/>
                 <div class="resource">
 
                     <div className={bodyStyles.cont2}>
+                        <Card link={'https://www.youtube.com/watch?v=UB1O30fR-EE'} cardText={'HTML Crash Course'} body={'A great introduction to HTML by Traversy Media'} />
+
+                        <Card link={'https://adamschwartz.co/magic-of-css/'} cardText={'Magic of CSS'} body={'A CSS course to turn you into a magician. By Adam Schwartz'} />
 
                         <Card link={'https://developer.mozilla.org/en-US/docs/Web/HTML'} cardText={'HTML Documentation'} body={'Learn what HTML is and how to use it'}/>
-
+                        
                         <Card link={'https://www.youtube.com/watch?v=UB1O30fR-EE'} cardText={'HTML Crash Course'} body={'A great introduction to HTML by Traversy Media'} />
 
                         <Card link={'https://css-tricks.com/'} cardText={'CSS Tricks'} body={'A great resource itself. has all the css information you need and more!'}/>
