@@ -27,6 +27,8 @@ const JsPage = () => {
 
                     <Card link={'https://javascript.info'} cardText={'javascript.info'} body={'a wonderful online book'}/>
                         
+                    <Card link={'https://www.javascriptstuff.com'} cardText={'javascript stuff'} body={'Learn the latest JavaScript tools with Andrew Farmer'}/>
+                    
                     <Card link={'https://www.mikedane.com/web-development/javascript/'} cardText={'mike dane'} body={'The basics of programming in JS'}/>
                         
                     <Card link={'https://www.theodinproject.com/courses/javascript'} cardText={'Odin Project'} body={'A thorough online course/book with projects'}/>
